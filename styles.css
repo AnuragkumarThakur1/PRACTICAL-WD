@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* For positioning the page number */
+}
+
+h1 {
+    text-align: center;
+    color: #b21e22; /* Dark red color for the title */
+    margin-bottom: 20px;
+}
+
+p {
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.chapter-header {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+
+.chapter {
+    color: #b21e22;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #ffe5e5; /* Light red background */
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+th {
+    background-color: #b21e22; /* Dark red for the table headers */
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+
+td {
+    text-align: left;
+    vertical-align: top;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Light gray for alternate rows */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.footer-bar {
+    background-color: #ffd000; /* Yellow for the footer bottom */
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: #b21e22; /* Dark red text */
+}
+
+sup {
+    font-size: 0.7em;
+    vertical-align: super;
+}
+
+/* Page number styling */
+.page-number {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    background-color: #b21e22; /* Dark red background */
+    color: #ffd000; /* Yellow text */
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
